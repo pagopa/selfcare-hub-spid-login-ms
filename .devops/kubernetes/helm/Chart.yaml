@@ -1,4 +1,4 @@
 apiVersion: v1
 description: HubSpidLogin helm chart
-name: hub-spid-login-deployment
+name: hub-spid-login-agid-deployment
 version: 1.0.0

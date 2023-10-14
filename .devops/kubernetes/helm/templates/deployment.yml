@@ -1,19 +1,19 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: hub-spid-login-ms
+  name: hub-spid-login-ms-agid
 spec:
   replicas: {{ .Values.replicas }}
   selector:
     matchLabels:
-      app: hub-spid-login-ms
+      app: hub-spid-login-ms-agid
   template:
     metadata:
       labels:
-        app: hub-spid-login-ms
+        app: hub-spid-login-ms-agid
     spec:
       containers:
-        - name: hub-spid-login-ms
+        - name: hub-spid-login-ms-agid
           image: {{ .Values.containerRegistry }}/{{ .Values.imageRepository }}
           imagePullPolicy: Always
           ports:
