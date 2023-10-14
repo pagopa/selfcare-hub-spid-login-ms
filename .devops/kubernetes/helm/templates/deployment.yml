@@ -27,9 +27,9 @@ spec:
             - secretRef:
                 name: redis-credentials
             - secretRef:
-                name: hub-spid-login-ms
+                name: hub-spid-login-ms-agid
             - configMapRef:
-                name: hub-spid-login-ms
+                name: hub-spid-login-ms-agid
             - configMapRef:
                 name: jwt
           livenessProbe:
