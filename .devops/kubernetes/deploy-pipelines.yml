@@ -16,7 +16,7 @@ parameters:
   - name: version
     displayName: Version of the docker image
     type: string
-    default: 1.4.3
+    default: 5.2.2
   - name: publishBakedManifests
     displayName: Publish Baked Manifests
     type: boolean
